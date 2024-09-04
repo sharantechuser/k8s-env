@@ -1,0 +1,5 @@
+FROM nginx
+RUN apt-get update
+ENV PROFILE_NAME dev
+ENV APP_VERSION v1
+EXPOSE 80
